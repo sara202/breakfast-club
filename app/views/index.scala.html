@@ -2,8 +2,155 @@
 
 @main(Messages("home.title")) {
 
+
   <div class="container">
     <h1 id="welcome-heading">@Messages("home.header")</h1>
   </div>
+
+  <div class="container">
+      <form id="orderForm">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Breads </h2>
+
+                <div class="col-md-6">
+
+                    <div class="radio form-check">
+                        <label>
+                            <input class="form-check-input" type="radio" name="breadsRadio" id="breadsRadio1" value="whiteBun" >
+                            White Bun
+                        </label>
+                    </div>
+                    <div class="radio form-check">
+                        <label>
+                            <input class="form-check-input" type="radio" name="breadsRadio" id="breadsRadio2" value="WholemealBun">
+                            Wholemeal Bun
+                        </label>
+                    </div>
+                    <div class="radio form-check">
+                        <label>
+                            <input class="form-check-input" type="radio" name="breadsRadio" id="breadsRadio3" value="GlutenFreeBun" >
+                            Gluten Free Bun
+                        </label>
+                    </div>
+                 </div>
+                 <div class="col-md-6">
+                    <div class="radio form-check">
+                        <label>
+                            <input class="form-check-input" type="radio" name="breadsRadio" id="breadsRadio4" value="Stottie" >
+                            Stottie
+                        </label>
+                    </div>
+                    <div class="radio form-check">
+                        <label>
+                            <input class="form-check-input" type="radio" name="breadsRadio" id="breadsRadio5" value="BrownBun" >
+                            Brown Bun
+                        </label>
+                    </div>
+                    <div class="radio form-check">
+                        <label>
+                            <input class="form-check-input" type="radio" name="breadsRadio" id="breadsRadio6" value="NoBread" >
+                            None
+                        </label>
+                    </div>
+                  </div>
+
+            </div>
+            <div class="col-md-6">
+              <h2>Fillings </h2>
+                    <div class="col-md-6">
+                      <div class="radio form-check">
+                          <label>
+                              <input  class="form-check-input" type="checkbox" name="fillingsCheckbox" id="fillingsCheckbox1" value="Bacon" >
+                              Bacon
+                          </label>
+                      </div>
+                      <div class="radio form-check">
+                          <label>
+                              <input  class="form-check-input" type="checkbox" name="fillingsCheckbox" id="fillingsCheckbox2" value="FriedEgg" >
+                              Fried Egg
+                          </label>
+                      </div>
+                      <div class="radio form-check">
+                          <label>
+                              <input  class="form-check-input" type="checkbox" name="fillingsCheckbox" id="fillingsCheckbox3" value="PoachedEgg" >
+                              Poached Egg
+                          </label>
+                      </div>
+                      <div class="radio form-check">
+                          <label>
+                              <input  class="form-check-input" type="checkbox" name="fillingsCheckbox" id="fillingsCheckbox4" value="ScrambledEgg" >
+                              Scrambled Egg
+                          </label>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="radio form-check">
+                          <label>
+                              <input  class="form-check-input" type="checkbox" name="fillingsCheckbox" id="fillingsCheckbox5" value="Sausage" >
+                              Sausage
+                          </label>
+                      </div>
+                      <div class="radio form-check">
+                          <label>
+                              <input  class="form-check-input" type="checkbox" name="fillingsCheckbox" id="fillingsCheckbox6" value="Tomato" >
+                              Tomato
+                          </label>
+                      </div>
+                      <div class="radio form-check">
+                          <label>
+                              <input  class="form-check-input" type="checkbox" name="fillingsCheckbox" id="fillingsCheckbox7" value="Mushrooms" >
+                              Mushrooms
+                          </label>
+                      </div>
+                      <div class="radio form-check">
+                          <label>
+                              <input  class="form-check-input" type="checkbox" name="fillingsCheckbox" id="fillingsCheckbox8" value="Beans" >
+                              Beans
+                          </label>
+                      </div>
+                  </div>
+              </div>
+        </div>
+          <div class="row">
+              <div class="col-md-4">
+                  <h2>Condiments </h2>
+                  <div class="col-md-6">
+                      <div class="radio form-check">
+                          <label>
+                              <input class="form-check-input" type="radio" name="condimentsRadio" id="condimentsRadio1" value="RedSauce" >
+                              Red Sauce
+                          </label>
+                      </div>
+                      <div class="radio form-check">
+                          <label>
+                              <input class="form-check-input" type="radio" name="condimentsRadio" id="condimentsRadio2" value="BrownSauce">
+                               Brown Sauce
+                          </label>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="radio form-check">
+                          <label>
+                              <input class="form-check-input" type="radio" name="condimentsRadio" id="condimentsRadio3" value="Salt" >
+                              Salt
+                          </label>
+                      </div>
+                      <div class="radio form-check">
+                          <label>
+                              <input class="form-check-input" type="radio" name="condimentsRadio" id="condimentsRadio4" value="Pepper">
+                              Pepper
+                          </label>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-8">
+
+
+              </div>
+      </form>
+  </div>
+    </div>
+
 
 }
