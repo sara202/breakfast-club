@@ -15,4 +15,5 @@ class HomeController @Inject()(val messagesApi: MessagesApi) extends Controller 
     Ok(views.html.index())
   }
 
+
 }
